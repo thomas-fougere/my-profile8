@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ma Container de Cards</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f0f0f0;
+      margin: 0;
+      padding: 20px;
+    }
+
+    .container {
+      display: flex;
+      justify-content: space-around;
+    }
+
+    .card-white {
+      background-color: white;
+      border-radius: 30px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      padding: 20px;
+      margin: 10px;
+      width: 300px;
+    }
+
+    h2 {
+      color: #3498db; /* Blue */
+      font-weight: bold;
+    }
+
+    p {
+      color: #e67e22; /* Orange */
+      font-style: italic;
+    }
+
+    img {
+      max-width: 100%;
+      border-radius: 15px;
+      margin-top: 10px;
+    }
+
+    h2.green {
+      color: #27ae60; /* Green */
+    }
+
+    p.dark-gray {
+      color: #333; /* Dark Gray */
+    }
+  </style>
+</head>
+<body>
+
+<div class="container">
+  <div class="card-white">
+    <h2>Salut, je suis Thomas</h2>
+    <img src="profile-picture.png" alt="Image">
+    <p>Bienvenue sur mon profil. J'ai créé cela avec Le Wagon.</p>
+  </div>
+
+  <div class="card-white">
+    <h2 class="green">Découvre mon nouveau site web</h2>
+    <img src="site.png" alt="Image">
+    <p class="dark-gray">Tu retrouves ici les étapes clefs pour développer ton blog de A à Z.</p>
+  </div>
+
+  <div class="card-white">
+    <h2 class="green">Tu peux me contacter</h2>
+    <img src="imagesite.jpg" alt="Image">
+    <p class="dark-gray">Voici mon adresse mail : t.fougere@audencia.com</p>
+  </div>
+</div>
+
+</body>
+</html>
